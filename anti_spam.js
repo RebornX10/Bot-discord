@@ -11,11 +11,11 @@ var messagelog = [];
  */
 module.exports = function (bot, options) {
   // Set options
-  const warnBuffer = (options && options.prefix) || 3;
-  const maxBuffer = (options && options.prefix) || 5;
+  const warnBuffer = (options && options.prefix) || 2;
+  const maxBuffer = (options && options.prefix) || 4;
   const interval = (options && options.interval) || 1000;
-  const warningMessage = (options && options.warningMessage) || "stop spamming or I'll whack your head off.";
-  const banMessage = (options && options.banMessage) || "has been banned for spamming, anyone else?";
+  const warningMessage = (options && options.warningMessage) || "Stop le Spam ou c'est un Ban.";
+  const banMessage = (options && options.banMessage) || "a été banni parce qu'il a spammer, d'autres volontaires?";
   const maxDuplicatesWarning = (options && options.duplicates || 7);
   const maxDuplicatesBan = (options && options.duplicates || 10);
 
