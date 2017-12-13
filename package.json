@@ -1,0 +1,11 @@
+{
+  "name": "Securite H'27",
+  "version": "1.0.0",
+  "description": "AntiSpam",
+  "main": "bot.js",
+  "author": "RebornX10",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.0"
+  }
+}
